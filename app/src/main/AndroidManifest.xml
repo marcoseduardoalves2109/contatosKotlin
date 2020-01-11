@@ -9,16 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".ContatoActivity"
+        <activity
+            android:name=".ContatoActivity"
             android:label="@string/title_activity_contato"
-            >
+            android:theme="@style/Theme.AppCompat.NoActionBar">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
 
-            >
+
 
 
         </activity>
